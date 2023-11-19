@@ -20,7 +20,7 @@
   button {
     background-color: $gold;
     color: $brown;
-    border: none;
+    border: 1px $health solid;
     padding: 1rem 1.5rem;
     text-align: center;
     text-decoration: none;
@@ -31,6 +31,19 @@
 
     &:hover {
       background-color: $gold;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .shop-container {
+    width: 40%;
+    height: 12rem;
+    justify-content: center;
+
+    button {
+      padding: 1.2rem 2rem;
+      font-size: 1.5rem;
     }
   }
 }

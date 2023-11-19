@@ -6,12 +6,11 @@
 .game-over-screen {
   display: flex;
   text-align: center;
-  height: 100%;
+  height: 58rem;
   width: 100%;
   color: $gold;
   align-content: center;
   flex-direction: column;
-  height: 50%;
 
   h1 {
     background: linear-gradient(to right, $gold, red);
