@@ -1,0 +1,36 @@
+/** @format */
+
+@use "../partials/variables" as *;
+
+.shop-container {
+  display: flex;
+  width: 33%;
+  height: 20rem;
+  border: 0.1rem solid $gold;
+  border-radius: 0.8rem;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  background-color: $brown;
+  text-align: center;
+
+  &__shoptitle {
+    color: $gold;
+  }
+
+  button {
+    background-color: $gold;
+    color: $brown;
+    border: none;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+
+    &:hover {
+      background-color: $gold;
+    }
+  }
+}

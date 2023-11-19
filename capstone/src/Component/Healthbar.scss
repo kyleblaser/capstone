@@ -1,0 +1,17 @@
+/** @format */
+@use "../partials/variables" as *;
+
+.health-bar-container {
+  width: 100%;
+  background-color: $white;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  border: 0.1rem solid $black;
+}
+
+.health-bar {
+  height: 2rem;
+  background-color: $health;
+  transition: width 0.3s ease;
+  border: 0.1rem solid $black;
+}

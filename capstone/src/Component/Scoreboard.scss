@@ -1,0 +1,27 @@
+/** @format */
+
+@use "../partials/variables" as *;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+.scoreboard-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  color: $gold;
+  align-items: center;
+  width: 100%;
+
+  h2 {
+    background: linear-gradient(to right, $gold, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-right: 0.3rem;
+    margin: 0 0 1rem 0;
+  }
+}

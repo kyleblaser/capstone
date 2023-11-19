@@ -1,0 +1,89 @@
+/** @format */
+
+@use "../partials/variables" as *;
+
+.game-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #f8f8f8;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+  padding: 0.2rem;
+}
+
+// Middle section - Player and Monster
+.middle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+
+  .player {
+    align-content: left;
+  }
+  .monster {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+// Bottom section - Controls and Combat Log
+.bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  justify-content: space-between;
+  .controls {
+    display: flex;
+    justify-content: space-around;
+  }
+  // Attack Button Styling
+  .attack-button {
+    width: 30%;
+    height: 20rem;
+    background-color: $health;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0.4rem $health;
+    transition: all 0.3s ease;
+    padding: 0 1rem;
+
+    &:hover {
+      background-color: $health;
+      box-shadow: 0 0.2rem $health;
+      transform: translateY(0.2rem);
+    }
+
+    &:active {
+      transform: translateY(0.4rem);
+      box-shadow: 0 0.1rem $health;
+    }
+  }
+  .combat-log {
+    background-color: $brown;
+    width: 25%;
+    height: 20rem;
+    border: 0.1rem solid $gold;
+    border-radius: 0.8rem;
+    color: $gold;
+    text-align: center;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{"type":"attack","playerHealth":95,"monsterHealth":40,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":90,"monsterHealth":30,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":95,"monsterHealth":40,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":90,"monsterHealth":30,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":85,"monsterHealth":20,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":80,"monsterHealth":10,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":75,"monsterHealth":0,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":70,"monsterHealth":40,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":65,"monsterHealth":30,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":60,"monsterHealth":20,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":55,"monsterHealth":10,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":50,"monsterHealth":0,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":45,"monsterHealth":40,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":40,"monsterHealth":30,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":35,"monsterHealth":20,"damageDealt":10,"damageTaken":5}
+{"type":"attack","playerHealth":30,"monsterHealth":10,"damageDealt":10,"damageTaken":5}
